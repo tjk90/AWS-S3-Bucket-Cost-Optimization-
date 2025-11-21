@@ -28,7 +28,7 @@ Console: Create a Lifecycle Rule (easy)
 
  Example lifecycle JSON (for CLI / API)
 You can choose from any of the lifecycle below and  apply a lifecycle config via the AWS CLI or SDK. Save this to lifecycle.json and apply it with the CLI:
-NOTE: After choosing the right one, make sure to delete the others and leave only the lifecycle policie that you will be using on your S3 Bucket.
+
 ```sh
 {
   "Rules": [
@@ -60,6 +60,7 @@ NOTE: After choosing the right one, make sure to delete the others and leave onl
 }
 
 ```
+NOTE: After choosing the right one, make sure to delete the others and leave only the lifecycle policie that you will be using on your S3 Bucket.
 Apply it (replace my-bucket):
 
 ```sh
